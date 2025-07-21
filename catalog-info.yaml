@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testnode
+  title: testnode
+  description: nodejs
+  annotations:
+    github.com/project-slug: 
+    backstage.io/managed-by-location: file:./catalog-info.yaml
+    jira.com/project-key: SCRUM
+  tags:
+    - Node.js
+    - Express
+    - MongoDB
+spec:
+  type: service
+  owner: ics
+  lifecycle: experimental
+  system: microservices-platform
