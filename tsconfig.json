@@ -1,2 +1,12 @@
-# typescript-react/tsconfig.json.mustache
-# Template content for typescript-react/tsconfig.json.mustache
+```json
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
+```

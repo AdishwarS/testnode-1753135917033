@@ -1,2 +1,16 @@
-# typescript-react/package.json.mustache
-# Template content for typescript-react/package.json.mustache
+```json
+{
+  "name": "health-care-app",
+  "version": "1.0.0",
+  "description": "Health care app",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
+```
